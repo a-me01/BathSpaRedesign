@@ -1,0 +1,173 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+margin: 0;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100; 
+    padding: 5px; 
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+}
+
+.logo {
+    height: 75px;
+    width: 75px;
+}
+
+.titleBar{
+    background-image: url(images/illiya-vjestica-W5FdAcHp7l8-unsplash.jpg);
+    background-size:  cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+
+
+.titleBarInfo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+}
+
+.title h1{
+    margin: 0;
+}
+
+.quickInfo {
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    line-height: 0px;
+}
+
+.text {
+    background-color: rgba(0, 0, 0, 0.404);
+    padding: 35px; 
+}
+.button1, .button2 {
+    display:inline-block;
+    padding:0.5em 3em;
+    border:0.16em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-size: 20px;
+    font-weight:400;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.15s;
+}
+    
+.button1:hover, .button2:hover {
+        background-color: rgba(0, 0, 0, 0.404);
+}
+
+.courseDetails {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.tagLine {
+    width: 50%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    border-right: 2px solid black;
+    padding-right: 10px;
+}
+
+ul li {
+    border-bottom: 2px dashed #3C3C3C;
+    list-style: none;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.bulletPoints {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.extraInfo {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+.p1, .p2, .p3 {
+    width: 50%;
+}
+
+.quoteArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-left: 300px;
+    position: relative;
+}
+
+.imageTree img {
+    width: 800px;
+    height: auto;
+   display: block;
+}
+
+.quoteInfo {
+    position: absolute; 
+    bottom: -100px; 
+    right: 20px; 
+    background-color: white; 
+    padding: 10px; 
+    width: 50%;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'Lato', sans-serif;
+}
+
+.source {
+    font-size: 14px;
+    padding-bottom: 22px;
+    border-bottom: solid 2px black;
+}
+
