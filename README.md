@@ -1,4 +1,4 @@
 # BathSpaRedesign
-Redesign of an example course page for Bath Spa University
 
-My redesign of the course pages for Bath Spa University, using a random course as an example.
+Tasked with redesigning the course pages for Bath Spa University. 
+I used Wildlife Conservation as an example course, the design can be changed and used to apply to the different course available at the University.
